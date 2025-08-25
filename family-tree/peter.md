@@ -1,13 +1,13 @@
 # 👤 Peter Youssef
 
-> 📍 Born: [your birth year] — [city]  
-> 🧬 Son of: [Ibrahim Youssef](peter-branch.md)  
+> 📍 Born: [March 9, 1967] — [Heliopolis]  
+> 🧬 Son of: [Bahaa Youssef](peter-branch.md)  
 > 📘 Maintainer of this archive  
 
 ---
 
 ## 🧠 About
-
+Teacher,
 Entrepreneur, writer, and software developer.  
 Founder of [Roxy Nova Systems Inc.](https://github.com/Nietzsche24-sketch)
 
@@ -22,9 +22,9 @@ Maintains several major Delta-grade projects:
 
 ## 🧬 Family Notes
 
-- Grandson of [Youssef (Patriarch)](youssef-patriarch.md)  
+- Grandson of [Youssef (Amin)](youssef-patriarch.md)  
 - Related to [Nabila](nabila-branch.md), etc.  
-- Son of [Ibrahim Youssef](peter-branch.md)
+- Son of [Bahaa Youssef](peter-branch.md)
 
 ---
 
