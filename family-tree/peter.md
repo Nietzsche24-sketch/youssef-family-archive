@@ -48,3 +48,10 @@ He maintains the GitHub repo and future contributors.
 ---
 
 _Last updated: {{ date }}_
+---
+
+## 📷 Photos
+
+### Childhood
+
+![Peter Youssef as a child](../photos/peter-youssef/peter-young.jpg)
