@@ -1,0 +1,147 @@
+# Anchor lineage (paternal line you gave): Awad -> Youssef -> Girgis -> Amin -> Bahaa -> (Peter, Neveen)
+
+people:
+  - id: awad
+    name: Awad
+  - id: youssef_anc
+    name: Youssef
+  - id: girgis
+    name: Girgis
+  - id: amin
+    name: Amin Youssef
+  - id: blanche
+    name: Blanche
+  - id: bahaa
+    name: Bahaa Youssef
+  - id: arlette
+    name: Arlette Youssef
+  - id: peter
+    name: Peter Youssef
+  - id: neveen
+    name: Neveen Youssef-Mosca
+  - id: luigi
+    name: Luigi (Louie) Mosca
+  - id: alexia
+    name: Alexia Mosca
+  - id: luke
+    name: Luke Mosca
+
+  # Bahaa's siblings (children of Amin & Blanche):
+  - id: nagy
+    name: Nagy Youssef
+  - id: farida
+    name: Farida
+  - id: bahiga
+    name: Bahiga ("Nadia") Youssef
+  - id: sabet
+    name: Sabet Zaki
+  - id: nahed
+    name: Nahed Youssef
+  - id: fikry
+    name: Fikry Sweydan
+
+  # Children of Nagy & Farida:
+  - id: karim
+    name: Karim Youssef
+  - id: katherine
+    name: Katherine
+  - id: theo
+    name: Theo Youssef
+  - id: marcus
+    name: Marcus Youssef
+
+  # Amira is Nagy's daughter (not sibling of Bahaa):
+  - id: amira
+    name: Amira Youssef-Douros
+  - id: elias
+    name: Elias (Louie) Douros
+  - id: antony
+    name: Antony Douros
+  - id: mike
+    name: Mike Douros
+
+  # Children of Bahiga (Nadia) & Sabet Zaki:
+  - id: aymad
+    name: Emad Zaki
+  - id: ayman
+    name: Ayman Zaki
+
+  # Children of Nahed & Fikry:
+  - id: shereen
+    name: Shereen Sweydan
+  - id: reem
+    name: Reem Sweydan
+  - id: sally
+    name: Sally Sweydan
+
+# Parent-child edges (directed parent -> child)
+# Core paternal chain
+parent_child:
+  - [awad, youssef_anc]
+  - [youssef_anc, girgis]
+  - [girgis, amin]
+
+  # Amin & Blanche children
+  - [amin, bahaa]
+  - [blanche, bahaa]
+  - [amin, nagy]
+  - [blanche, nagy]
+  - [amin, bahiga]
+  - [blanche, bahiga]
+  - [amin, nahed]
+  - [blanche, nahed]
+
+  # Bahaa & Arlette children
+  - [bahaa, peter]
+  - [arlette, peter]
+  - [bahaa, neveen]
+  - [arlette, neveen]
+
+  # Neveen & Luigi Mosca children
+  - [neveen, alexia]
+  - [luigi, alexia]
+  - [neveen, luke]
+  - [luigi, luke]
+
+  # Nagy & Farida children
+  - [nagy, karim]
+  - [farida, karim]
+  - [nagy, amira]
+  - [farida, amira]
+
+  # Karim & Katherine children
+  - [karim, theo]
+  - [katherine, theo]
+  - [karim, marcus]
+  - [katherine, marcus]
+
+  # Amira & Elias children
+  - [amira, antony]
+  - [elias, antony]
+  - [amira, mike]
+  - [elias, mike]
+
+  # Bahiga (Nadia) & Sabet Zaki children
+  - [bahiga, aymad]
+  - [sabet, aymad]
+  - [bahiga, ayman]
+  - [sabet, ayman]
+
+  # Nahed & Fikry children
+  - [nahed, shereen]
+  - [fikry, shereen]
+  - [nahed, reem]
+  - [fikry, reem]
+  - [nahed, sally]
+  - [fikry, sally]
+
+# Spousal links (undirected visual edge)
+spouses:
+  - [amin, blanche]
+  - [bahaa, arlette]
+  - [neveen, luigi]
+  - [nagy, farida]
+  - [karim, katherine]
+  - [amira, elias]
+  - [bahiga, sabet]
+  - [nahed, fikry]

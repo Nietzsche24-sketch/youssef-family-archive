@@ -1,0 +1,17 @@
+digraph YoussefFamily {
+    rankdir=TB;
+    node [shape=box, style=filled, color=lightblue, fontname="Helvetica"];
+
+    // Family Members
+    "Bahiga (Nadia)";
+    "Neveen Youssef-Mosca";
+    "Arlette Youssef";
+    "Alexia Mosca";
+    "Luke Mosca";
+
+    // Relationships
+    "Bahiga (Nadia)" -> "Neveen Youssef-Mosca";
+    "Bahiga (Nadia)" -> "Arlette Youssef";
+    "Neveen Youssef-Mosca" -> "Alexia Mosca";
+    "Neveen Youssef-Mosca" -> "Luke Mosca";
+}

@@ -1,0 +1,6 @@
+id,parentId,name,title,image,email,phone
+1,,Amin Youssef,Patriarch,,,
+2,1,Neveen Youssef,Daughter,,,
+3,2,Alexia Mosca,Granddaughter,,,
+4,2,Luke Mosca,Grandson,,,
+5,1,Arlette Youssef,Daughter,,,

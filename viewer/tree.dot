@@ -1,0 +1,12 @@
+digraph FamilyTree {
+  node [shape=box, style=filled, color=lightblue];
+  "1" [label="Amin Youssef\nPatriarch"]
+  "2" [label="Neveen Youssef\nDaughter"]
+  "1" -> "2"
+  "3" [label="Alexia Mosca\nGranddaughter"]
+  "2" -> "3"
+  "4" [label="Luke Mosca\nGrandson"]
+  "2" -> "4"
+  "5" [label="Arlette Youssef\nDaughter"]
+  "1" -> "5"
+}
